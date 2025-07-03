@@ -1,6 +1,9 @@
-![Logo | Code Begin](./src/assets/images/logo-dark.svg)
+<p align="left">
+  <img src="./src/assets/images/logo-dark.svg" alt="Logo | Code Begin" width="180">
+</p>
 
-# Guia Oficial de Commits — Comunidade Code Begin
+
+# Guia oficial de commits — Comunidade Code Begin
 
 Este documento define o padrão de mensagens de commit a serem utilizadas no repositório da **Code Begin**. Ter um padrão claro e bem definido ajuda a manter a organização, facilita o entendimento do histórico do projeto e torna a colaboração mais profissional.
 
