@@ -3,13 +3,18 @@
 @media (max-width: 499px) {
     /* ========== index ========== */
 
+    .body-index {
+        overflow: hidden;
+    }
+
     .container-index {
         padding: 0 auto;
         flex-direction: column;
     }
 
     .header-index{
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+        margin-top: 5rem;
     }
 
     .header-index .logo img {
@@ -50,5 +55,30 @@
 
     .button-index .btn {
         padding: 0.6rem 1rem;
+    }
+
+    /* ========= modal ======== */
+    .modal {
+        padding: 10rem;
+    }
+    
+    .modal-content {
+        padding: 2rem;
+    }
+
+    .modal-content img {
+        width: 8rem;
+        height: auto;
+    }
+
+    .modal-content .text-modal p {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+
+    .button-modal .modal-btn {
+        font-size: 1rem;
+        padding: 0.rem 1.2rem;
     }
 }

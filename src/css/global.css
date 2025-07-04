@@ -22,6 +22,7 @@
     --texto-hover: #e4e4e4;
     --border-btn: #303236;
     --bg-color-transparent: rgba(255, 255, 255, 0.11);
+    --bg-color-modal: rgba(27, 28, 30, 0.897);
 }
 
 ::selection {
