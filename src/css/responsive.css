@@ -1,0 +1,54 @@
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 499px) {
+    /* ========== index ========== */
+
+    .container-index {
+        padding: 0 auto;
+        flex-direction: column;
+    }
+
+    .header-index{
+        margin-bottom: 5rem;
+    }
+
+    .header-index .logo img {
+        width: 8rem;
+    }
+
+    .badge-index {
+        padding: 0.2rem 0.6rem;
+        font-size: 0.6rem;
+    }
+
+    .badge-index img {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .title-index {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+
+    .title-index br {
+        display: none;
+    }
+
+    .subtitle-index {
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+    }
+
+    .subtitle-index br {
+        display: none;
+    }
+
+    .button-index a {
+        font-size: 0.8rem;
+    }
+
+    .button-index .btn {
+        padding: 0.6rem 1rem;
+    }
+}
