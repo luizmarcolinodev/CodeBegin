@@ -1,0 +1,103 @@
+.body-index {
+    background: linear-gradient(288deg, #1B1C1E 0%, #0B0B0B 100%);
+    height: 100vh;
+}
+
+.header-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3rem;
+    margin-bottom: 8rem;
+}
+
+.header-index .logo img {
+    width: 10rem;
+}
+
+.container-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.badge-index {
+    border: 1px solid var(--branco);
+    background-color: var(--bg-color-transparent);
+    color: var(--branco);
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.badge-index img {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.title-index {
+    color: var(--branco);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.title-index strong {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.subtitle-index  {
+    background: linear-gradient(90deg, #FEFDFB 0%, #989796 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.button-index a {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1rem;
+}
+
+.button-index .btn {
+    border-radius: 3.125rem;
+    border: 1px solid var(--border-btn);
+    padding: 0.6rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+}
+
+.button-index .btn:hover {
+    background-color: var(--hover);
+    color: var(--texto-hover);
+}
+
+.button-index img {
+    width: 0.9rem;
+    height: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.button-index .btn:hover img {
+    transform: translateY(-2px);
+}
